@@ -51,10 +51,13 @@ export default function Home() {
             for community organisations
           </h2>
           <p className="text-neutral-700">
-            From branding to HR, funding to volunteer management, Goodhub plans
-            to have everything a small charity or voluntary organisation needs
-            to have - all the benefits of digital tools with none of the
-            drawbacks.
+            Digital tools can transform an organisation efficiency, communication and effectiveness.
+            But let's be real - they can also infuriate, confuse and waste vast amounts of time! 
+          </p>
+          <p className="text-neutral-700">
+            Built by I.T professionals, GoodHub's aim is to give all the benefits of digital tools
+            with none of the drawbacks. From branding to HR, funding to volunteer management, GoodHub plans
+            to have everything a small charity or voluntary organisation needs.
           </p>
           <h3>Phase 1 - Helping you reach out</h3>
           <p className="text-neutral-700">
@@ -62,11 +65,10 @@ export default function Home() {
             out to funders, volunteers and members of the public via a radically
             simple social media and website helper.
           </p>
-          <h3>
+          <p className="text-neutral-700">
             If you can add a comment on Facebook, you can create and run
             professional, attractive and engaging digital outreach with GoodHub.
-          </h3>
-          <p className="text-neutral-700">This should not be bold</p>
+          </p>
         </div>
 
         <div className="mt-12 flex w-full">
