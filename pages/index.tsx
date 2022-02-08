@@ -46,15 +46,15 @@ export default function Home() {
         </div>
 
         <div className="prose-lg mx-auto max-w-4xl pt-6 leading-6 px-6">
-          <h2 className="text-center font-bold">
+          <h2 className="text-2xl text-center font-bold">
             GoodHub is a brand new charity that provides free, easy-to-use digital tools
             for community organisations
           </h2>
-          <p className="text-neutral-700 text-xl">
+          <p className="text-neutral-700 md:text-xl">
             Digital tools can transform an organisation efficiency, communication and effectiveness.
             But let's be real - they can also infuriate, confuse and waste vast amounts of time! 
           </p>
-          <p className="text-neutral-700 text-xl">
+          <p className="text-neutral-700 md:text-xl">
             Built by I.T professionals, GoodHub's aim is to give all the benefits of digital tools
             with none of the drawbacks. From branding to HR, funding to volunteer management, GoodHub plans
             to have everything a small charity or voluntary organisation needs, so that they can concentrate 
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <div></div>
         <div className="prose-lg mx-auto max-w-4xl pt-6 leading-6 px-6">
-          <p className="text-xl font-bold">Phase 1 - Helping you reach out</p>
+          <p className="md:text-xl font-bold">Phase 1 - Helping you reach out</p>
           <p className="text-neutral-700">
             We are starting by providing essential tools to help with reaching
             out to funders, volunteers and members of the public via a radically
