@@ -6,7 +6,7 @@ import goodhub from '../public/goodhub-green.svg'
 const Header: FC = ({ children }) => (
   <a
     href="mailto:info@goodhub.org.uk?subject=GoodHub%20Early%20adopter%20program"
-    className="flex w-full items-center justify-center bg-[#de5830] p-4 text-center text-lg text-white"
+    className="flex w-full items-center justify-center bg-[#de5830] p-1 text-center text-sm md:p-4 md:text-lg text-white"
   >
     <p>
       GoodHub is in beta testing:{' '}
