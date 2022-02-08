@@ -10,7 +10,7 @@ const Header: FC = ({ children }) => (
   >
     <p>
       GoodHub is in beta testing:{' '}
-      <i>Click here if you want to be an early adopter.</i>
+      <i className="whitespace-nowrap">Click here if you want to be an early adopter.</i>
     </p>
   </a>
 )
@@ -45,7 +45,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="prose-lg mx-auto max-w-4xl pt-6 leading-6 px-6">
+        <div className="prose-lg mx-auto max-w-4xl pt-3 px-3 md:pt-6 leading-6 md:px-6">
           <h2 className="text-2xl text-center font-bold">
             GoodHub is a brand new charity that provides free, easy-to-use digital tools
             for community organisations
