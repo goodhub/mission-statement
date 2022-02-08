@@ -69,7 +69,10 @@ export default function Home() {
           </p>
           <p className="text-neutral-700">
             If you can add a comment on Facebook, you can create and run
-            professional, attractive and engaging digital outreach with GoodHub. If you are interested in easily 
+            professional, attractive and engaging digital outreach with GoodHub.
+          </p>  
+          <p className="text-neutral-700">         
+            If you are interested in easily 
             transforming the effectiveness of your outreach and want early access to GoodHub then please <a href="mailto:info@goodhub.org.uk?subject=GoodHub%20Early%20adopter%20program">get in touch.</a>
           </p>
         </div>
