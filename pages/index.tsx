@@ -51,7 +51,7 @@ export default function Home() {
             for community organisations
           </h2>
           <p className="text-neutral-700 md:text-xl">
-            Digital tools can transform an organisation efficiency, communication and effectiveness.
+            Digital tools can transform an organisation's efficiency, communication and effectiveness.
             But let's be real - they can also infuriate, confuse and waste vast amounts of time! 
           </p>
           <p className="text-neutral-700 md:text-xl">
