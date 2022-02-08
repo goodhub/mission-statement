@@ -61,7 +61,7 @@ export default function Home() {
             on improving the lives of local people.
           </p>
         </div>
-        <div></div>
+        <div className="mt-12 flex w-full bg-[#cccccc]"></div>
         <div className="prose-lg mx-auto max-w-4xl pt-6 leading-6 px-6">
           <p className="md:text-xl font-bold">Phase 1 - Helping you reach out</p>
           <p className="text-neutral-700">
@@ -80,19 +80,19 @@ export default function Home() {
           <div className="flex-1 bg-[#ebc0c2]"></div>
           <div className="mx-auto grid sm:grid-cols-3 grid-cols-1 max-w-5xl cursor-pointer">
             <a className="flex flex-col justify-center px-6 py-12 bg-[#ebc0c2]" href="https://dev.goodhub.org.uk">
-              <h4 className="text-2xl leading-6">
+              <h4 className="text-xl leading-6">
                 Have a look at how simple it is to use GoodHub here.
               </h4>
               <span>Learn more</span>
             </a>
             <a className="flex flex-col justify-center px-6 py-12 bg-[#d6e9c6]" href="mailto:info@goodhub.org.uk?subject=Getting%20involved%20in%20GoodHub">
-              <h4 className="text-2xl leading-6">
+              <h4 className="text-xl leading-6">
                 If you would like to be involved in the charity then click here.
               </h4>
               <span>Learn more</span>
             </a>
             <a className="flex flex-col justify-center px-6 py-12 bg-[#b9b9e7]" href="mailto:info@goodhub.org.uk?subject=GoodHub%20Early%20adopter%20program">
-              <h4 className="text-2xl leading-6">
+              <h4 className="text-xl leading-6">
                 If you would like to be an early adopter of the platform click
                 here.
               </h4>
@@ -103,7 +103,7 @@ export default function Home() {
         </div>
 
         <footer className="mb-8 flex items-center justify-center p-4 text-center">
-          <p>GoodHub is a UK Registered Charity No. 1197414</p>
+          <p><a href="https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5189511" target="_blank">GoodHub is a UK Registered Charity No. 1197414</a></p>
         </footer>
       </main>
     </div>
