@@ -97,7 +97,7 @@ export default function Home() {
           <div className="flex-1 bg-[#b9b9e7]"></div>
         </div>
 
-        <footer className="mb-8 flex items-center justify-center p-4 text-center">
+        <footer className="flex items-center justify-center p-4 text-center">
           <p><a href="https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5189511" target="_blank">GoodHub is a UK Registered Charity No. 1197414</a></p>
         </footer>
       </main>
