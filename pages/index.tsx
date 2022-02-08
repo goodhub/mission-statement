@@ -60,10 +60,8 @@ export default function Home() {
             to have everything a small charity or voluntary organisation needs, so that they can concentrate 
             on improving the lives of local people.
           </p>
-        </div>
-        <div className="mt-12 flex w-full bg-[#cccccc]"></div>
-        <div className="prose-lg mx-auto max-w-4xl pt-6 leading-6 px-6">
           <p className="md:text-xl font-bold">Phase 1 - Helping you reach out</p>
+          <div className="mt-4 h-28 min-h-[30vw] lg:min-h-[20vw] flex w-full bg-no-repeat bg-center bg-contain bg-[url('../public/ghsocialtools.jpg')]"></div>
           <p className="text-neutral-700">
             We are starting by providing essential tools to help with reaching
             out to funders, volunteers and members of the public via a radically
@@ -83,20 +81,17 @@ export default function Home() {
               <h4 className="text-xl leading-6">
                 Have a look at how simple it is to use GoodHub here.
               </h4>
-              <span>Learn more</span>
             </a>
             <a className="flex flex-col justify-center px-6 py-12 bg-[#d6e9c6]" href="mailto:info@goodhub.org.uk?subject=Getting%20involved%20in%20GoodHub">
               <h4 className="text-xl leading-6">
                 If you would like to be involved in the charity then click here.
               </h4>
-              <span>Learn more</span>
             </a>
             <a className="flex flex-col justify-center px-6 py-12 bg-[#b9b9e7]" href="mailto:info@goodhub.org.uk?subject=GoodHub%20Early%20adopter%20program">
               <h4 className="text-xl leading-6">
-                If you would like to be an early adopter of the platform click
+                If you would like to be an early adopter click
                 here.
               </h4>
-              <span>Learn more</span>
             </a>
           </div>
           <div className="flex-1 bg-[#b9b9e7]"></div>
