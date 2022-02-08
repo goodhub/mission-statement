@@ -5,7 +5,7 @@ import goodhub from '../public/goodhub-green.svg'
 
 const Header: FC = ({ children }) => (
   <a
-    href="https://dev.goodhub.org.uk"
+    href="mailto:info@goodhub.org.uk?subject=GoodHub%20Early%20adopter%20program"
     className="flex w-full items-center justify-center bg-[#de5830] p-4 text-center text-lg text-white"
   >
     <p>
@@ -40,13 +40,13 @@ export default function Home() {
           style={{ backgroundImage: `url("${nyan.src}")` }}
         >
           <img
-            className="relative -top-2 w-[40%] sm:-top-3 sm:w-1/5"
+            className="relative -top-2 w-[40%] sm:-top-3 sm:w-1/5" 
             src={goodhub.src}
           />
         </div>
 
-        <div className="prose-lg mx-auto max-w-4xl pt-16 leading-6 px-6">
-          <h2 className="text-center">
+        <div className="prose-lg mx-auto max-w-4xl pt-6 leading-6 px-6">
+          <h2 className="text-center font-bold">
             GoodHub is a charity that provides free, easy-to-use digital tools
             for community organisations
           </h2>
@@ -78,13 +78,13 @@ export default function Home() {
               </h4>
               <span>Learn more</span>
             </a>
-            <a className="flex flex-col justify-center px-6 py-12 bg-[#d6e9c6]" href="mailto:info@goodhub.org.uk">
+            <a className="flex flex-col justify-center px-6 py-12 bg-[#d6e9c6]" href="mailto:info@goodhub.org.uk?subject=Getting%20involved%20in%20GoodHub">
               <h4 className="text-2xl leading-6">
                 If you would like to be involved in the charity then click here.
               </h4>
               <span>Learn more</span>
             </a>
-            <a className="flex flex-col justify-center px-6 py-12 bg-[#b9b9e7]" href="mailto:info@goodhub.org.uk">
+            <a className="flex flex-col justify-center px-6 py-12 bg-[#b9b9e7]" href="mailto:info@goodhub.org.uk?subject=GoodHub%20Early%20adopter%20program">
               <h4 className="text-2xl leading-6">
                 If you would like to be an early adopter of the platform click
                 here.
