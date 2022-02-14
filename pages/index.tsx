@@ -80,9 +80,9 @@ export default function Home() {
         <div className="mt-12 flex w-full">
           <div className="flex-1 bg-[#ebc0c2]"></div>
           <div className="mx-auto grid sm:grid-cols-3 grid-cols-1 max-w-5xl cursor-pointer">
-            <a className="flex flex-col justify-center px-6 py-12 bg-[#ebc0c2]" href="https://dev.goodhub.org.uk">
+            <a className="flex flex-col justify-center px-6 py-12 bg-[#ebc0c2]" href="#video">
               <h4 className="text-xl leading-6">
-                Have a look at how simple it is to use GoodHub here.
+                View a short video of how simple it is to use GoodHub here.
               </h4>
             </a>
             <a className="flex flex-col justify-center px-6 py-12 bg-[#d6e9c6]" href="mailto:info@goodhub.org.uk?subject=Getting%20involved%20in%20GoodHub">
@@ -99,7 +99,13 @@ export default function Home() {
           </div>
           <div className="flex-1 bg-[#b9b9e7]"></div>
         </div>
-
+        <a name="video">
+          <div className="prose-lg mx-auto max-w-4xl px-3 pt-12 leading-6 md:px-6">
+            <div className="relative h-0 pb-[56.25%]">
+              <iframe className="absolute w-full h-full top-0 left-0" src="https://www.youtube.com/embed/lwD1NNR875A?cc_load_policy=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </a>
         <footer className="flex items-center justify-center p-4 text-center">
           <p><a href="https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5189511" target="_blank">GoodHub is a UK Registered Charity No. 1197414</a></p>
         </footer>
