@@ -57,7 +57,7 @@ export default function Home() {
           <p className="text-neutral-700 md:text-xl">
             Built by I.T professionals, GoodHub's aim is to give all the benefits of digital tools
             with none of the drawbacks. From branding to HR, funding to volunteer management, GoodHub plans
-            to have everything a small charity or voluntary organisation needs, so that they can concentrate 
+            to have everything a smaller charity or voluntary organisation needs, so that they can concentrate 
             on improving the lives of local people.
           </p>
           <p className="md:text-xl font-bold">Phase 1 - Helping you reach out</p>
