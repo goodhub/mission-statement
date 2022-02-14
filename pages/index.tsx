@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
       <Head>
-        <title>GoodHub | Mission Statement</title>
+        <title>GoodHub | Digital tools for community organisations</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
