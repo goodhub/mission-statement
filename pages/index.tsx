@@ -6,13 +6,14 @@ import goodhub from '../public/goodhub-green.svg'
 const Header: FC = ({ children }) => (
   <a
     href="mailto:info@goodhub.org.uk?subject=GoodHub%20Early%20adopter%20program"
-    className="flex w-full items-center justify-center bg-[#de5830] p-1 text-center text-sm md:p-4 md:text-lg text-white"
+    className="flex w-full items-center justify-center bg-[#b729a5] p-1 text-center text-sm md:p-4 md:text-lg text-white"
   >
     <p>
       GoodHub is in beta testing:{' '}
       <i className="whitespace-nowrap">Click here if you want to be an early adopter.</i>
     </p>
   </a>
+  // old#de5830
 )
 
 export default function Home() {
@@ -40,7 +41,7 @@ export default function Home() {
           style={{ backgroundImage: `url("${nyan.src}")` }}
         >
           <img
-            className="relative -top-2 w-[40%] sm:-top-3 sm:w-1/5" 
+            alt="Logo for GoodHub" className="relative -top-2 w-[40%] sm:-top-3 sm:w-1/5" 
             src={goodhub.src}
           />
         </div>
@@ -102,7 +103,7 @@ export default function Home() {
         <a id="video">
           <div className="prose-lg mx-auto max-w-4xl px-3 pt-12 leading-6 md:px-6">
             <div className="relative h-0 pb-[56.25%]">
-              <iframe className="absolute w-full h-full top-0 left-0" src="https://www.youtube.com/embed/lwD1NNR875A?cc_load_policy=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe className="absolute w-full h-full top-0 left-0" src="https://www.youtube-nocookie.com/embed/lwD1NNR875A?cc_load_policy=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </a>
