@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { FC, useState } from 'react'
 import goodhub from '../public/goodhub-green.svg'
-import YTVideo from '../public/YTVideo'
-import Footer from '../public/Footer'
+import YTVideo from '../components/YTVideo'
+import Footer from '../components/Footer'
 import { FiMenu} from 'react-icons/fi';
 
 const Header: FC = ({ children }) => (

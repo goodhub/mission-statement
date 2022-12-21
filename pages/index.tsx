@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { FC, useState } from 'react'
 import nyan from '../public/nyan-sign.gif'
-import YTVideo from '../public/YTVideo'
-import Footer from '../public/Footer'
+import YTVideo from '../components/YTVideo'
+import Footer from '../components/Footer'
 import goodhub from '../public/goodhub-green.svg'
 import { FiMenu} from 'react-icons/fi';
 

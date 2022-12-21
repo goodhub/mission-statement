@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { FC, useState } from 'react'
-import Footer from '../public/Footer'
-import YTVideo from '../public/YTVideo'
+import Footer from '../components/Footer'
+import YTVideo from '../components/YTVideo'
 import goodhub from '../public/goodhub-green.svg'
 import { FiMenu } from 'react-icons/fi';
 
