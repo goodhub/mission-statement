@@ -12,7 +12,7 @@ const Header: FC = ({ children }) => {
   const [isMenuOpen, setMenuState] = useState(false);
   return <div className="bg-[#043368] flex w-full items-center justify-center">
     <div className='flex relative w-full mx-auto max-w-4xl flex items-center'>
-      <div className="flex w-full items-left absolute p-0.5 md:p-3 top-0 left-0 z-10 mx-auto max-w-4xl">
+      <div className="flex w-full items-left absolute p-0.5 md:p-3 top-0 left-0 z-20 mx-auto max-w-4xl">
         <button onClick={() => setMenuState(!isMenuOpen)}>
           { isMenuOpen ? 
             <FiX className="m-2 inline w-6 h-6 text-white md:w-8 md:h-8" /> :
@@ -34,7 +34,7 @@ const Header: FC = ({ children }) => {
               <li><a aria-label="Our email" href="mailto:info@goodhub.org.uk" target="_blank"><HiOutlineMail className="m-2 w-6 h-6 text-white inline hover:text-indigo-600" />Email</a></li>
         </ul>
       </div> : null  }
-      <div className=' flex w-full items-center justify-center z-20'>
+      <div className=' flex w-full items-center justify-center z-10'>
         <a
           href="/" aria-label="Go to the Homepage"
           className=" bg-[#043368] p-1 text-center text-sm md:p-4 md:text-lg text-white"
