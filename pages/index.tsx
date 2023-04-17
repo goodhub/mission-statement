@@ -27,7 +27,7 @@ const Header: FC = ({ children }) => {
               <li><a href="organisations" ><FaPeopleCarry className="m-2 w-6 h-6 text-white inline hover:text-indigo-600" />For community organisations</a></li>
               <li><a href="contributing" ><FaRegHandPaper className="m-2 w-6 h-6 text-white inline hover:text-indigo-600" />Contribute your skills</a></li>
               <li><a aria-label="GoodHub at Github" href="https://github.com/goodhub" target="_blank"><FiGithub className="m-2 w-6 h-6 text-white inline hover:text-indigo-600" />GoodHub at GitHub</a></li>
-              <li><a aria-label="GoodHub at Facebook" href="https://www.facebook.com/good.hub" target="_blank"><FiFacebook className="m-2 w-6 h-6 text-white inline hover:text-indigo-600" />Facebook</a></li>
+              <li><a aria-label="GoodHub at Facebook" href="https://www.facebook.com/GoodHubUK" target="_blank"><FiFacebook className="m-2 w-6 h-6 text-white inline hover:text-indigo-600" />Facebook</a></li>
               <li><a aria-label="GoodHub at Twitter" href="https://twitter.com/goodhubuk" target="_blank"><FiTwitter className="m-2 w-6 h-6 text-white inline hover:text-indigo-600" />Twitter</a></li>
               <li><a aria-label="GoodHub at Instagram" href="https://www.instagram.com/goodhubuk/" target="_blank"><FiInstagram className="m-2 w-6 h-6 text-white inline hover:text-indigo-600" />Instagram</a></li>
               {/* <a href="#" target="_blank"><FiLinkedin className="inline m-2 w-6 h-6 text-black hover:text-indigo-600" /></a> */}

@@ -9,7 +9,7 @@ const Footer: FC = () => {
             <a  className="hover:text-indigo-600" href="https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5189511" target="_blank">GoodHub is a UK Registered Charity No. 1197414</a> 
             <div className="block text-center">
             <a aria-label="GoodHub at Github" href="https://github.com/goodhub" target="_blank"><FiGithub className="m-2 w-6 h-6 text-black inline hover:text-indigo-600" /></a>
-            <a aria-label="GoodHub at Facebook" href="https://www.facebook.com/good.hub" target="_blank"><FiFacebook className="m-2 w-6 h-6 text-black inline hover:text-indigo-600" /></a>
+            <a aria-label="GoodHub at Facebook" href="https://www.facebook.com/GoodHubUK" target="_blank"><FiFacebook className="m-2 w-6 h-6 text-black inline hover:text-indigo-600" /></a>
             <a aria-label="GoodHub at Twitter" href="https://twitter.com/goodhubuk" target="_blank"><FiTwitter className="m-2 w-6 h-6 text-black inline hover:text-indigo-600" /></a>
             <a aria-label="GoodHub at Instagram" href="https://www.instagram.com/goodhubuk/" target="_blank"><FiInstagram className="m-2 w-6 h-6 text-black inline hover:text-indigo-600" /></a>
             {/* <a href="#" target="_blank"><FiLinkedin className="inline m-2 w-6 h-6 text-black hover:text-indigo-600" /></a> */}
