@@ -87,20 +87,13 @@ export default function Contributing() {
           <p className="text-base md:text-xl font-bold italic">But what if I want to support you, but can't face extra development work at the end of my day?</p>
           <p className="text-neutral-700 text-base md:text-xl">
             We have all been there! You do not have to contribute directly in development, but you can support us financially, 
-            either with the efficient method of  <a  className="hover:text-indigo-600" href="https://charitiestrust.org/services/individuals/payrollgiving-individuals">payroll giving</a>, or one off amounts <a className="hover:text-indigo-600" href="mailto:info@goodhub.org.uk?subject=Arrange%20a%20one-off%20secure%20donation">directly and securely to us</a>, and even through <a className="hover:text-indigo-600" href="https://smile.amazon.co.uk/ch/1197414-0">Amazon Smile </a> 
-             who contribute an amount to us every time you purchase something from their website. 
+            either with the efficient method of  <a  className="hover:text-indigo-600" href="https://charitiestrust.org/services/individuals/payrollgiving-individuals">payroll giving</a>, or one off amounts <a className="hover:text-indigo-600" href="mailto:info@goodhub.org.uk?subject=Arrange%20a%20one-off%20secure%20donation">directly and securely to us</a>. 
           </p>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <div className="grid grid-cols-1">
             <div className="group m-0 p-0 border-2 rounded-md overflow-hidden hover:border-black bg-slate-600">
               <a href="https://charitiestrust.org/services/individuals/payrollgiving-individuals">
                 <img className="m-0" alt="Image depicts payroll giving" src="payroll-giving.jpeg" />
                 <p className="md:text-xl m-2 p-2 font-bold italic text-slate-200 group-hover:text-white ">Support us with Payroll Giving</p>
-              </a>
-            </div>
-            <div className="group m-0 p-0 border-2 rounded-md overflow-hidden hover:border-black bg-slate-600">
-              <a href="https://smile.amazon.co.uk/ch/1197414-0">
-                <img className="m-0" alt="The Amazon Smile logo" src="amazon-smile.jpeg" />
-                <p className="md:text-xl m-2 p-2 font-bold italic text-slate-200 group-hover:text-white">Support us with Amazon Smile</p>
               </a>
             </div>
           </div>
